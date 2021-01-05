@@ -54,10 +54,6 @@ I tried using `id` in the spacex-api playground, no success. The documentation s
 
 So I used `mission_name` as the search field. However, certain names just throw an error; most notably those that have parenthesis such as the 'Starlink' ones.
 
-### React-Router
-
-I used react-router however realized very late that refreshing a page such as `http://localhost:3000/compare-launches` returns an error. I did not have time to correct this bug. Please always start the app from `localhost:3000`
-
 ### Lack of Time
 
 Anything lacking, such as the Cypress test, resolving the above errors, the Search option, and filtering, is due to lack of time.
