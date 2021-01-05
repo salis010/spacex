@@ -47,9 +47,13 @@ export const Pagination: React.FunctionComponent = () => {
 
     return (
         <Wrapper>
-            <Button onClick={handleDownClick}>{"<"}</Button>
-            <Page>{pageNumber() + 1}</Page>
-            <Button onClick={handleUpClick}>{">"}</Button>
+            <Button data-cy="previous-page-button" onClick={handleDownClick}>
+                {"<"}
+            </Button>
+            <Page data-cy="page-number">{pageNumber() + 1}</Page>
+            <Button data-cy="next-page-button" onClick={handleUpClick}>
+                {">"}
+            </Button>
         </Wrapper>
     )
 }

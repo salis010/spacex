@@ -54,6 +54,10 @@ I tried using `id` in the spacex-api playground, no success. The documentation s
 
 So I used `mission_name` as the search field. However, certain names just throw an error; most notably those that have parenthesis such as the 'Starlink' ones.
 
+### Cypress Tests
+
+Since the comparison feature is failing due to above-mentioned bug, the E2E test was done on the pagination component. Cypress is testing the value of the page when the user presses the previous or next page buttons.
+
 ### Lack of Time
 
-Anything lacking, such as the Cypress test, resolving the above errors, the Search option, and filtering, is due to lack of time.
+Anything lacking, resolving the above errors, the Search option, and filtering, is due to lack of time.
